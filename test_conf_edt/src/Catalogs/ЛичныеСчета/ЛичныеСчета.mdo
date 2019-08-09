@@ -30,11 +30,12 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛичныеСчета.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="72664686-5311-4c6f-9e95-fe0308d9767c">
-    <name>Реквизит</name>
+    <name>Валюта</name>
     <synonym>
       <key>ru</key>
-      <value>Реквизит</value>
+      <value>Валюта</value>
     </synonym>
     <type>
       <types>CatalogRef.Валюта</types>
@@ -65,4 +66,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="5202cdca-3f6d-40cc-b164-b80822fcd9f9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
