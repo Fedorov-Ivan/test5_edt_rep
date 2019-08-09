@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52487d1e-f642-43c1-a87a-f21eb2336258">
+  <producedTypes>
+    <objectType typeId="57632d86-7a14-41d3-805b-549c0a5b6a94" valueTypeId="630b0205-8cd1-492a-b2c4-31d4483e39f7"/>
+    <refType typeId="559df639-675c-4c0d-b6e3-2eccf6198fde" valueTypeId="80a76059-b858-49bc-b287-0885e2c7971f"/>
+    <selectionType typeId="c0d622a7-b8db-44ea-9c3c-bb8e98555fde" valueTypeId="0c171e97-edc5-4c6a-995d-0be13530363d"/>
+    <listType typeId="823f5db6-eca4-46fc-9f20-e5edf563e068" valueTypeId="b27f31b7-069c-47d0-b1da-e53ad64bace5"/>
+    <managerType typeId="c8a73386-2304-4b79-b273-8fffea15e2b7" valueTypeId="17612b5f-3576-4438-8efa-839b63fd6dde"/>
+  </producedTypes>
+  <name>Валюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Валюта.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
