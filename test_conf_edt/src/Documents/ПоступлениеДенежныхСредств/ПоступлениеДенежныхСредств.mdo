@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b79ae01-b544-48c4-87c4-323e61725612">
+  <producedTypes>
+    <objectType typeId="c2a976d8-e542-44d5-b750-01cf3d529769" valueTypeId="751049fd-7d5e-49d8-8ab9-560f77a3e01d"/>
+    <refType typeId="584853d9-e2b2-45e2-be90-f3deedd3466c" valueTypeId="7d24212a-86c5-4664-ac13-1f4f6d5b9b79"/>
+    <selectionType typeId="83e91ba5-e039-4815-b981-a3e7b36dba10" valueTypeId="fe0c4105-a6b5-4df0-9c87-61b474704288"/>
+    <listType typeId="b608fac1-e6a2-4472-b391-0ba20b159478" valueTypeId="e96c8a48-ccfb-42f2-91fc-e3aafe333eed"/>
+    <managerType typeId="8880409a-8f1e-43d6-8d02-f3c119a0b0e9" valueTypeId="472455d9-1ad4-454c-9fce-fee5191f48b0"/>
+  </producedTypes>
+  <name>ПоступлениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="10ad791b-793e-4222-9119-8b3d4cd5537f">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛичныеСчета</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2aa381a-50ec-42fa-a58e-44e909d371af">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
