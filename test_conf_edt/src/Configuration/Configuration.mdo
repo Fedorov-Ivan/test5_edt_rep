@@ -31,6 +31,7 @@
   </languages>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.ЛичныеСчета</catalogs>
+  <documents>Document.РасходДенежныхСредств</documents>
   <documents>Document.ПоступлениеДенежныхСредств</documents>
   <enums>Enum.ВидДвиженияДенежныхСредств</enums>
 </mdclass:Configuration>
