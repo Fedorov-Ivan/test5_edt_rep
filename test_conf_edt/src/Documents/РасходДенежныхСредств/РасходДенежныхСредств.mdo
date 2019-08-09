@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f0fb1c-6569-447e-8da1-0116a7b1db2e">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f0fb1c-6569-447e-8da1-0116a7b1db2e">
   <producedTypes>
     <objectType typeId="b37f9754-a7b8-4f55-a50c-8fa22bd1fc1b" valueTypeId="c393c09e-b1ec-4802-98c0-22cb7709f09c"/>
     <refType typeId="33c027cb-08a1-47c2-8e1f-4f6beb15a271" valueTypeId="0a6e8309-69cc-4f8a-bef2-5a43786f0b25"/>
@@ -34,6 +34,9 @@
     <type>
       <types>CatalogRef.ЛичныеСчета</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -51,6 +54,9 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
