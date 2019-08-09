@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f0fb1c-6569-447e-8da1-0116a7b1db2e">
+  <producedTypes>
+    <objectType typeId="b37f9754-a7b8-4f55-a50c-8fa22bd1fc1b" valueTypeId="c393c09e-b1ec-4802-98c0-22cb7709f09c"/>
+    <refType typeId="33c027cb-08a1-47c2-8e1f-4f6beb15a271" valueTypeId="0a6e8309-69cc-4f8a-bef2-5a43786f0b25"/>
+    <selectionType typeId="8c18253f-4666-4f30-971a-9040ac797a64" valueTypeId="840ae542-fda9-42d4-9ab2-0b2dca58af9a"/>
+    <listType typeId="098657db-a408-4382-924a-63e381b8f534" valueTypeId="268e547a-a8da-456c-bcba-23b17d7a6666"/>
+    <managerType typeId="ffc3681b-d7f2-40dc-921a-b7b884a7e941" valueTypeId="6851343a-ee7d-4b9b-b486-548038e4c055"/>
+  </producedTypes>
+  <name>РасходДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
