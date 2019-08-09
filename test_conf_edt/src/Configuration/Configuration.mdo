@@ -31,4 +31,5 @@
   </languages>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.ЛичныеСчета</catalogs>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
 </mdclass:Configuration>
