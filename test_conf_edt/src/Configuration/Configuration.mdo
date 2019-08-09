@@ -30,4 +30,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Валюта</catalogs>
+  <catalogs>Catalog.ЛичныеСчета</catalogs>
 </mdclass:Configuration>

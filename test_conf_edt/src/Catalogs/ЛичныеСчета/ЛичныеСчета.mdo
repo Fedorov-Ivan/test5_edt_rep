@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91509863-3542-4c21-9a6f-6ed53030e664">
+  <producedTypes>
+    <objectType typeId="eb7f2341-6ec6-4a25-a518-95562505d8ab" valueTypeId="d0777415-f788-498e-b4e4-0dd952688c46"/>
+    <refType typeId="587fb046-8ae5-4664-bf46-eb96615771e9" valueTypeId="f693a1b0-4ece-47ef-9ae5-1f336a585877"/>
+    <selectionType typeId="b8c49114-3101-472f-9f0e-ae571049a57b" valueTypeId="363801c0-e15a-42b6-aca5-60a55f966998"/>
+    <listType typeId="ee0f9801-1966-421d-ace3-9095f7c72dfd" valueTypeId="8efa3464-5b52-441d-9749-017b7b3e8681"/>
+    <managerType typeId="be00457d-faeb-4f9e-be49-ae3c41727f57" valueTypeId="9c40a40b-7937-402a-9a02-e5ebdbbb18df"/>
+  </producedTypes>
+  <name>ЛичныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛичныеСчета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛичныеСчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="72664686-5311-4c6f-9e95-fe0308d9767c">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюта</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
