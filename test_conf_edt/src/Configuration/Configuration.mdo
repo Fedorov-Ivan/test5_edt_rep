@@ -29,6 +29,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Документы</subsystems>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.ЛичныеСчета</catalogs>
   <documents>Document.РасходДенежныхСредств</documents>
